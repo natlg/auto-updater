@@ -2,10 +2,12 @@
 
 module.exports = {
   networks: {
-    development: {
+    sokol: {
       host: "127.0.0.1",
-      port: 7545,
+      port: 8545,
       network_id: "*",
+      gas: 5700000,
+      from: "0x.. master key"
     },
-  },
+  }
 };
